@@ -10,10 +10,16 @@ header{
     background-color: lightskyblue;
     color: white;
     padding: 15px;
+    height: 30vh;
+    width: 100vw;
+    box-sizing: border-box;
 }
 header > nav {
     background-color: orange;
     padding: 10px;
+    height: 90%;
+    width: 80%;
+    box-sizing: border-box;
 }
 nav a {
     color: purple;
@@ -24,8 +30,11 @@ main {
     background-color: grey;
     padding: 10px;
     margin-top: 10px;
+    height: 60vh;
+    width: 100vh;
+    box-sizing: border-box;
 }
-section {
+main > section {
     background: yellow;
     padding: 10px;
 }
