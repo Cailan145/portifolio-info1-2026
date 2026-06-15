@@ -25,6 +25,10 @@ main {
     padding: 10px;
     margin-top: 10px;
 }
+section {
+    background: yellow;
+    padding: 10px;
+}
 main > article {
     background: lightgreen;
     padding: 10px;
