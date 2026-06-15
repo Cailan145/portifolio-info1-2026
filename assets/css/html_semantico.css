@@ -11,7 +11,7 @@ header{
     color: white;
     padding: 15px;
 }
-nav {
+header > nav {
     background-color: orange;
     padding: 10px;
 }
@@ -29,7 +29,7 @@ section {
     background: yellow;
     padding: 10px;
 }
-main > article {
+article {
     background: lightgreen;
     padding: 10px;
     margin-top: 10px;
