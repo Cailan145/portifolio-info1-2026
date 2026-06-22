@@ -1,58 +1,9 @@
 body {
+    color: whitesmoke;
     font-family: sans-serif;
-    background-color: lightgray;
-    margin-top: 0;
-    padding: 20px;
 }
-
-header{
-    font-family: sans-serif;
-    background-color: lightskyblue;
-    color: white;
-    padding: 15px;
-    height: 30vh;
-    width: 100vw;
-    box-sizing: border-box;
-}
-header > nav {
-    background-color: orange;
-    padding: 10px;
-    height: 90%;
-    width: 80%;
-    box-sizing: border-box;
-}
-nav a {
-    color: purple;
-    text-decoration: none;
-    margin-right: 10px;
-}
-main {
-    background-color: grey;
-    padding: 10px;
-    margin-top: 10px;
-    height: 60vh;
-    width: 100vh;
-    box-sizing: border-box;
-}
-main > section {
-    background: yellow;
-    padding: 10px;
-}
-article {
-    background: lightgreen;
-    padding: 10px;
-    margin-top: 10px;
-}
-aside {
-    background: purple;
-    color: white;
-    padding: 10px;
-    flex: 1;
-}
-footer {
-    background: darkslategrey;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 10px;
+header {
+    border: 10px lightblue;
+    padding: 30px;
+    margin: 20px;
 }
