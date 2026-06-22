@@ -3,11 +3,55 @@ body {
     font-family: sans-serif;
 }
 header {
-    border: 10px solid lightblue;
-    padding: 30px;
+    border: 20px solid lightblue;
+    padding: 40px;
     margin: 20px;
     background-color: blue;
     background-clip: content-box;
     color: white;
 }
-nav {}
+header > nav {
+    border: 5px solid darkblue;
+    padding: 10px;
+    margin: 5px;
+    background-color: orange;
+    background-clip: content-box;
+    color: white;
+}
+main {
+    border: 10px solid gainsboro;
+    padding: 10px;
+    background-color: lightgray;
+}
+main > section {
+    border: 10px solid grey;
+    padding: 20px;
+    margin: 10px;
+    background-color: yellow;
+    background-clip: content-box;
+    color: black;
+}
+section > article {
+    border: 5px dotted greenyellow;
+    padding: 10px;
+    margin: 5px;
+    background-color: greenyellow;
+    background-clip: content-box;
+    color: black;
+}
+main > aside {
+    border: 10px solid grey
+    padding: 20px;
+    margin: 10px;
+    background-color: purple;
+    background-clip: content-box;
+    color: white;
+}
+footer {
+    border: 5px solid grey;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightseagreen;
+    background-clip: content-box;
+    color: white;
+}
