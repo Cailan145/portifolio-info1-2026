@@ -3,7 +3,10 @@ body {
     font-family: sans-serif;
 }
 header {
-    border: 10px lightblue;
+    border: 10px solid lightblue;
     padding: 30px;
     margin: 20px;
+    background-color: blue;
+    background-clip: content-box;
+    color: white;
 }
