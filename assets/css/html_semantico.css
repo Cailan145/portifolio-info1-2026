@@ -3,51 +3,59 @@ body {
     font-family: sans-serif;
     border: 20px solid whitesmoke;
 }
+
 header {
     border: 20px solid lightblue;
-    padding: 40px;
+    padding: 20px;
     margin: 10px;
     background-color: blue;
     color: white;
 }
+
 header > nav {
     border: 5px solid darkblue;
     padding: 10px;
-    margin: 5px;
+    margin-top: 20px;
     background-color: orange;
     color: white;
 }
+
 main {
     border: 15px solid gainsboro;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     background-color: lightgray;
 }
+
 main > section {
     border: 10px solid grey;
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
     background-color: yellow;
     color: black;
 }
+
 section > article {
-    border: 5px dotted greenyellow;
+    border: 2px dotted green;
     padding: 15px;
-    margin: 5px;
+    margin-top: 15px;
     background-color: greenyellow;
     color: black;
 }
-div > aside {
-    border: 10px solid grey:
+
+aside {
+    border: 10px solid grey; /* faltava ; */
     padding: 25px;
-    margin: 5px;
+    margin: 10px;
     background-color: purple;
     color: white;
 }
+
 footer {
     border: 5px solid grey;
     padding: 15px;
-    margin: 5px;
+    margin: 10px;
     background-color: lightseagreen;
     color: white;
+    text-align: center;
 }
