@@ -1,11 +1,12 @@
 body {
     color: whitesmoke;
     font-family: sans-serif;
+    border: 20px solid whitesmoke;
 }
 header {
     border: 20px solid lightblue;
     padding: 40px;
-    margin: 20px;
+    margin: 10px;
     background-color: blue;
     background-clip: content-box;
     color: white;
@@ -19,13 +20,14 @@ header > nav {
     color: white;
 }
 main {
-    border: 10px solid gainsboro;
+    border: 15px solid gainsboro;
     padding: 10px;
+    margin: 5px;
     background-color: lightgray;
 }
 main > section {
     border: 10px solid grey;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
     background-color: yellow;
     background-clip: content-box;
@@ -33,7 +35,7 @@ main > section {
 }
 section > article {
     border: 5px dotted greenyellow;
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
     background-color: greenyellow;
     background-clip: content-box;
@@ -41,15 +43,15 @@ section > article {
 }
 main > aside {
     border: 10px solid grey
-    padding: 20px;
-    margin: 10px;
+    padding: 25px;
+    margin: 5px;
     background-color: purple;
     background-clip: content-box;
     color: white;
 }
 footer {
     border: 5px solid grey;
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
     background-color: lightseagreen;
     background-clip: content-box;
