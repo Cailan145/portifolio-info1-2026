@@ -41,7 +41,7 @@ section > article {
     background-clip: content-box;
     color: black;
 }
-main > aside {
+div > aside {
     border: 10px solid grey
     padding: 25px;
     margin: 5px;
