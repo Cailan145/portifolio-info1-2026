@@ -8,7 +8,6 @@ header {
     padding: 40px;
     margin: 10px;
     background-color: blue;
-    background-clip: content-box;
     color: white;
 }
 header > nav {
@@ -16,7 +15,6 @@ header > nav {
     padding: 10px;
     margin: 5px;
     background-color: orange;
-    background-clip: content-box;
     color: white;
 }
 main {
@@ -30,7 +28,6 @@ main > section {
     padding: 30px;
     margin: 10px;
     background-color: yellow;
-    background-clip: content-box;
     color: black;
 }
 section > article {
@@ -38,15 +35,13 @@ section > article {
     padding: 15px;
     margin: 5px;
     background-color: greenyellow;
-    background-clip: content-box;
     color: black;
 }
 div > aside {
-    border: 10px solid grey
+    border: 10px solid grey:
     padding: 25px;
     margin: 5px;
     background-color: purple;
-    background-clip: content-box;
     color: white;
 }
 footer {
@@ -54,6 +49,5 @@ footer {
     padding: 15px;
     margin: 5px;
     background-color: lightseagreen;
-    background-clip: content-box;
     color: white;
 }
