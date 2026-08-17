@@ -1,8 +1,9 @@
 .container {
     background-color: grey;
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
