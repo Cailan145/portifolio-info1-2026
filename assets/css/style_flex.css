@@ -1,1 +1,13 @@
-
+.container {
+    background-color: grey;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.quadrado_vermelho {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
