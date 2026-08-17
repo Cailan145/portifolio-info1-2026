@@ -1,7 +1,9 @@
+body {
+    background-color: white;
+    align-items: center;
+}
 .container {
     background-color: grey;
-    width: 600px;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,4 +13,5 @@
     background-color: red;
     width: 100px;
     height: 100px;
+    margin: 67px;
 }
